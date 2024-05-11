@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caesar+Dressing&display=swap');
 
 :root{
     --white-light: rgba(255, 255, 255, 0.5);
@@ -53,8 +54,7 @@ img{
     line-height: 1.5;
     opacity: 0.5;
     margin: 0.4rem 0;
-}
-
+} 
 /* product section */
 .products{
     background: var(--alice-blue);
@@ -224,18 +224,19 @@ img{
 .btn-dark:hover{
     background: var(--carribean-green);
 }
-
-
-
-
-
-
+.col-title {
+    font-family: 'Caesar Dressing';
+    margin: 2vh auto -4vh auto;
+    padding: 0;
+    text-align: center;
+}
 
 /* Media Queries */
 @media screen and (min-width: 992px){
     .product-items{
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
+        padding-left: 0vw;
     }
     .product-col-r-bottom{
         display: grid;
@@ -256,9 +257,9 @@ img{
 }
 
 @media screen and (min-width: 1336px){
-    .product-items{
+    /* .product-items{
         grid-template-columns: repeat(4, 1fr);
-    }
+    } */
     .product-collection-wrapper{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
