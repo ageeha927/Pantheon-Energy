@@ -45,6 +45,7 @@ img {
   text-align: center;
   padding: 1.3rem 0;
   opacity: 0.9;
+  font-family: "Caesar Dressing";
 }
 .container .md-title {
   font-size: 2rem;
@@ -112,15 +113,16 @@ img {
 .products .product .product-content .product-btns .btn-cart.btn-cart, .products .product .product-content .product-btns .btn-buy.btn-cart {
   background: #000;
   color: #fff;
+  order: 1;
 }
 .products .product .product-content .product-btns .btn-cart:hover, .products .product .product-content .product-btns .btn-buy:hover {
-  background: #4092c9;
+  background: #000000;
 }
 .products .product .product-content .product-btns .btn-cart.btn-buy, .products .product .product-content .product-btns .btn-buy.btn-buy {
   background: #fff;
 }
 .products .product .product-content .product-btns .btn-cart.btn-buy:hover, .products .product .product-content .product-btns .btn-buy.btn-buy:hover {
-  background: #4092c9;
+  background: #000000;
   color: #fff;
 }
 .products .product .product-info {
@@ -133,7 +135,7 @@ img {
   align-items: center;
 }
 .products .product .product-info .product-info-top .rating span {
-  color: #4092c9;
+  color: #000000;
 }
 .products .product .product-info .product-name {
   color: #000;
@@ -150,19 +152,19 @@ img {
 }
 .products .product .product-info .product-price:first-of-type {
   text-decoration: line-through;
-  color: #4092c9;
+  color: #000000;
 }
 .products .product:hover .product-img img {
   transform: scale(1.1);
 }
 .products .product:hover .product-img {
-  background: #4092c9;
+  background: #000000;
 }
 .products .product:hover .product-btns {
   opacity: 1;
 }
 .products .product .off-info .sm-title {
-  background: #4092c9;
+  background: #000000;
   color: #fff;
   display: inline-block;
   padding: 0.5rem;
@@ -237,7 +239,7 @@ img {
 }
 
 .btn-dark:hover {
-  background: #4092c9;
+  background: #000000;
 }
 
 .col-title {
@@ -282,4 +284,11 @@ img {
   .product-col-left {
     height: 121.5vh;
   }
+}
+#can {
+  position: relative;
+  bottom: 3vh;
+  right: 5.3vw;
+  width: 21vw;
+  height: 27vh;
 }/*# sourceMappingURL=products.css.map */

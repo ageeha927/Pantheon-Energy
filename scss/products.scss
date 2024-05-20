@@ -29,6 +29,7 @@ img{
         text-align: center;
         padding: 1.3rem 0;
         opacity: 0.9;
+        font-family: 'Caesar Dressing';
     }
     .md-title{
         font-size: 2rem;
@@ -93,6 +94,7 @@ img{
                 &.btn-cart {
                 background: #000;
                 color: #fff;
+                order: 1;
                 }
                 &:hover {
                     background: $carribean-green;
@@ -261,4 +263,11 @@ img{
     .product-col-left{
         height: 121.5vh;
     }
+}
+#can {
+    position: relative;
+    bottom: 3vh;
+    right: 5.3vw;
+    width: 21vw;
+    height: 27vh;
 }
