@@ -4,6 +4,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 body{
     font-family: 'Quicksand', sans-serif;
@@ -175,7 +176,8 @@ img{
     padding: 3.2rem 0;
 }
 .product-col-left{
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)), url("images/fashion-img-1.jpg") center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)), url("../assets/underworldcollections.png") center/cover no-repeat;
+    background-position: 45%;
 }
 .product-col-r-top{
     background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)), url("images/fashion-img-2.png") center/cover no-repeat;
@@ -263,11 +265,25 @@ img{
     .product-col-left{
         height: 121.5vh;
     }
+    #can {
+        position: relative;
+        bottom: 3vh;
+        right: 5.3vw;
+        width: 21vw;
+        height: 27vh;
+    }
 }
 #can {
     position: relative;
-    bottom: 3vh;
-    right: 5.3vw;
+    bottom: 2vh;
+    right: 3.7vw;
     width: 21vw;
     height: 27vh;
+}
+#coming_soon{
+    width: 23vw;
+    height: 26vh;
+    position: relative;
+    top: 1vh;
+    right: 5vw;
 }
