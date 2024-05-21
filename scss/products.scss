@@ -6,6 +6,9 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
+::-webkit-scrollbar {
+    display: none;
+}
 body{
     font-family: 'Quicksand', sans-serif;
 }
@@ -53,7 +56,6 @@ img{
 /* Product Section */
 .products {
     background: $alice-blue;
-    padding: 3.2rem 0;
     .text-light {
         text-align: center;
         width: 70%;
@@ -180,7 +182,7 @@ img{
     background-position: 45%;
 }
 .product-col-r-top{
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)), url("images/fashion-img-2.png") center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)), url("../assets/ares.png") center/cover no-repeat;
 }
 .flex{
     display: flex;
@@ -191,10 +193,10 @@ img{
     margin: 5px;
 }
 .product-col-r-bottom > div:first-child{
-    background: #eaa001;
+    background: linear-gradient(rgba(255, 170, 24, 0.3), rgba(71, 27, 0, 0.6)), url("../assets/logo.png") center/cover no-repeat;
 }
 .product-col-r-bottom > div:last-child{
-    background: #0090ff;
+    background: linear-gradient(rgba(125, 255, 214, 0.3), rgba(4, 53, 48, 0.6)), url("../assets/about.png") center/cover no-repeat;
 }
 .product-col-content{
     text-align: center;
@@ -284,6 +286,49 @@ img{
     width: 23vw;
     height: 26vh;
     position: relative;
-    top: 1vh;
     right: 5vw;
+}
+#head{
+    background-color: $alice-blue;
+}
+.nav a{
+    color: rgb(0, 0, 0);
+    -webkit-text-stroke: .3px rgb(253, 221, 8);
+    text-decoration: none;
+    padding-left: 2vw;
+    padding-right: 1vw;
+    font-family: 'Caesar Dressing';
+    font-weight: bolder;
+    font-size: x-large;
+    letter-spacing: 5px;
+    position: relative;
+    left: 19vw;
+    top: -13vh;
+}
+
+.nav a:hover{
+    -webkit-text-stroke: .3px rgb(0, 0, 0);
+}
+
+#gap{
+    padding-right: 22vw;
+}
+
+#logoNav{
+    height: 6vw;
+    position: relative;
+    top: 2vh;
+    left: 39.5vw;
+    width: 320px;
+    height: 190px;
+}
+#message{
+    font-family: 'Caesar Dressing';
+    font-size: 100px;
+    text-align: center;
+}
+
+#clouds{
+    position: absolute;
+    height: 99vh;
 }

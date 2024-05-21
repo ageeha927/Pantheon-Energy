@@ -3,36 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/products.css">
+    <link rel="stylesheet" href="./css/contact.css">
     <title>Pantheon Energy | Contact</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="index.html"><img src="#" alt="#"></a>
-            <a href="products.html">Products</a>
-            <a href="contact.html">Contact</a>
-        </nav>
-    </header>
-    <section id="desc"> 
-        <!-- float left -->
-        <h2>Have A Message For The Gods?</h2>
-        <p>Please send any questions or concerns to the right department by clicking one of the buttons above! We will ensure our fastest messenger allows your inquiry to be answered promptly.</p>
-    </section>
-    <section id="form">
-        <!-- float right -->
-        <form action="#">
-            <label for="fname">First name:</label>
-            <input type="text" id="fname" name="fname" required placeholder="First Name">
-            <label for="lname">Last name:</label>
-            <input type="text" id="lname" name="lname" required placeholder="Last Name"><br>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required placeholder="Email">
-            <label for="issue">Issue:</label>
-            <input type="text" id="issue" name="issue" required placeholder="Issue">
-            <label for="comments">Comments:</label>
-            <input type="text" id="comments" name="comments" required placeholder="Comments">
-        </form>
-    </section>
+    <div id="head">
+        <div>
+            <nav class="nav">
+                <img id="logoNav" src="./assets/logo.png" alt="logo">
+                <a href="index.html">HOME</a>
+                <a id="gap" href="products.html">PRODUCTS</a>
+                <a href="about.html">ABOUT</a>
+                <a href="contact.html">CONTACT US</a>
+        </div>
+    </div>
+    <div class="background">
+        <img id="clouds" src="./assets/clouds.png" alt="clouds">
+        <div class="container">
+            <h1 id="message">Have a message for the gods?</h1>
+            <div class="screen">
+                <div class="screen-header">
+                    <div class="screen-header-left">
+                        <div class="screen-header-button close"></div>
+                        <div class="screen-header-button maximize"></div>
+                        <div class="screen-header-button minimize"></div>
+                    </div>
+                <div class="screen-header-right">
+                    <div class="screen-header-ellipsis"></div>
+                    <div class="screen-header-ellipsis"></div>
+                    <div class="screen-header-ellipsis"></div>
+                </div>
+            </div>
+            <div class="screen-body">
+                <div class="screen-body-item left">
+                    <div class="app-title">
+                        <span>CONTACT</span>
+                        <span>US</span>
+                    </div>
+                    <div class="app-contact">CONTACT INFO : +NOT-REAL-GOD-TEL</div>
+                </div>
+                <div class="screen-body-item">
+                        <div class="app-form">
+                        <div class="app-form-group">
+                        <input class="app-form-control" placeholder="NAME">
+                    </div>
+                <div class="app-form-group">
+                    <input class="app-form-control" placeholder="EMAIL">
+                </div>
+                <div class="app-form-group">
+                    <input class="app-form-control" placeholder="CONTACT NO">
+                </div>
+                <div class="app-form-group message">
+                    <input class="app-form-control" placeholder="MESSAGE">
+                </div>
+                <div class="app-form-group buttons">
+                        <button class="app-form-button">SEND</button>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <script src="./js/contact.js"></script>
 </body>
 </html>

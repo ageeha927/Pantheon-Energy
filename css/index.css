@@ -1,0 +1,17 @@
+#head {
+  background-color: #ffffff;
+}
+
+#background {
+  border: 5px solid #af25a6;
+}
+
+.nav a {
+  color: rgb(0, 0, 0);
+  -webkit-text-stroke: 0.3px rgb(253, 221, 8);
+}
+
+.btn-dark:hover {
+  background: white;
+  color: black;
+}/*# sourceMappingURL=index.css.map */
